@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name videopac)(type Legacy)(uri ${KIPRJMOD}/videopac.lib)(options "")(descr ""))
+  (lib (name videopac-edgeconnector)(type Legacy)(uri ${KIPRJMOD}/videopac-edgeconnector.lib)(options "")(descr ""))
+  (lib (name idt7006pf-pn64)(type Legacy)(uri ${KIPRJMOD}/idt7006pf-pn64.lib)(options "")(descr ""))
+)

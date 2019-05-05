@@ -5,18 +5,18 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Title "Videopac USBCART"
+Date "2019-05-05"
+Rev "1.1"
 Comp ""
-Comment1 ""
+Comment1 "Drawn by BWACK. Based on C64FC by Stian Søreng"
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
 	1250 2650 1650 2650
-Text Label 1350 2650 0    50   ~ 0
+Text Label 1350 2650 0    50   ~ 6
 D0
 $Comp
 L power:GND #PWR0101
@@ -47,21 +47,21 @@ F 3 "" H 2100 5100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1250 2750 1650 2750
-Text Label 1350 2750 0    50   ~ 0
+Text Label 1350 2750 0    50   ~ 6
 D1
 Wire Wire Line
 	1250 2850 1650 2850
-Text Label 1350 2850 0    50   ~ 0
+Text Label 1350 2850 0    50   ~ 6
 D2
-Text Label 1350 2950 0    50   ~ 0
+Text Label 1350 2950 0    50   ~ 6
 D3
-Text Label 1350 3050 0    50   ~ 0
+Text Label 1350 3050 0    50   ~ 6
 D4
-Text Label 1350 3150 0    50   ~ 0
+Text Label 1350 3150 0    50   ~ 6
 D5
-Text Label 1350 3250 0    50   ~ 0
+Text Label 1350 3250 0    50   ~ 6
 D6
-Text Label 1350 3350 0    50   ~ 0
+Text Label 1350 3350 0    50   ~ 6
 D7
 Wire Wire Line
 	1250 2950 1650 2950
@@ -111,107 +111,107 @@ Wire Wire Line
 	1250 5150 1650 5150
 Wire Wire Line
 	1250 5250 1650 5250
-Text Label 1350 3450 0    50   ~ 0
+Text Label 1350 3450 0    50   ~ 6
 A0
-Text Label 1350 3550 0    50   ~ 0
+Text Label 1350 3550 0    50   ~ 6
 A1
-Text Label 1350 3650 0    50   ~ 0
+Text Label 1350 3650 0    50   ~ 6
 A2
-Text Label 1350 3750 0    50   ~ 0
+Text Label 1350 3750 0    50   ~ 6
 A3
-Text Label 1350 3850 0    50   ~ 0
+Text Label 1350 3850 0    50   ~ 6
 A4
-Text Label 1350 3950 0    50   ~ 0
+Text Label 1350 3950 0    50   ~ 6
 A5
-Text Label 1350 4050 0    50   ~ 0
+Text Label 1350 4050 0    50   ~ 6
 A6
-Text Label 1350 4150 0    50   ~ 0
+Text Label 1350 4150 0    50   ~ 6
 A7
-Text Label 1350 4250 0    50   ~ 0
+Text Label 1350 4250 0    50   ~ 6
 A8
-Text Label 1350 4350 0    50   ~ 0
+Text Label 1350 4350 0    50   ~ 6
 A9
-Text Label 1350 4450 0    50   ~ 0
+Text Label 1350 4450 0    50   ~ 6
 A10
-Text Label 1350 4550 0    50   ~ 0
+Text Label 1350 4550 0    50   ~ 6
 A11
-Text Label 1350 4650 0    50   ~ 0
+Text Label 1350 4650 0    50   ~ 6
 A12
-Text Label 1350 4750 0    50   ~ 0
+Text Label 1350 4750 0    50   ~ 6
 A13
-Text Label 1350 4850 0    50   ~ 0
+Text Label 1350 4850 0    50   ~ 6
 #PSEN
-Text Label 1350 4950 0    50   ~ 0
+Text Label 1350 4950 0    50   ~ 6
 #WR
-Text Label 1350 5050 0    50   ~ 0
+Text Label 1350 5050 0    50   ~ 6
 CS
-Text Label 1350 5150 0    50   ~ 0
+Text Label 1350 5150 0    50   ~ 6
 #CS
-Text Label 1350 5250 0    50   ~ 0
+Text Label 1350 5250 0    50   ~ 6
 T0
-Text Label 5900 3450 0    60   ~ 0
+Text Label 5900 3450 0    60   ~ 6
 MCU_SCK
-Text Label 5900 3350 0    60   ~ 0
+Text Label 5900 3350 0    60   ~ 6
 MCU_MISO
-Text Label 5900 3250 0    60   ~ 0
+Text Label 5900 3250 0    60   ~ 6
 MCU_A13_MOSI
-Text Label 5900 3150 0    60   ~ 0
+Text Label 5900 3150 0    60   ~ 6
 MCU_A12
-Text Label 5900 3050 0    60   ~ 0
+Text Label 5900 3050 0    60   ~ 6
 MCU_A11
-Text Label 5900 2950 0    60   ~ 0
+Text Label 5900 2950 0    60   ~ 6
 MCU_A10
-Text Label 5900 2850 0    60   ~ 0
+Text Label 5900 2850 0    60   ~ 6
 MCU_A9
-Text Label 5900 2750 0    60   ~ 0
+Text Label 5900 2750 0    60   ~ 6
 MCU_A8
-Text Label 6000 4350 0    60   ~ 0
+Text Label 6000 4350 0    60   ~ 6
 MCU_A7
-Text Label 6000 4250 0    60   ~ 0
+Text Label 6000 4250 0    60   ~ 6
 MCU_A6
-Text Label 6000 4150 0    60   ~ 0
+Text Label 6000 4150 0    60   ~ 6
 MCU_A5
-Text Label 6000 4050 0    60   ~ 0
+Text Label 6000 4050 0    60   ~ 6
 MCU_A4
-Text Label 6000 3950 0    60   ~ 0
+Text Label 6000 3950 0    60   ~ 6
 MCU_A3
-Text Label 6000 3850 0    60   ~ 0
+Text Label 6000 3850 0    60   ~ 6
 MCU_A2
-Text Label 6000 3750 0    60   ~ 0
+Text Label 6000 3750 0    60   ~ 6
 MCU_A1
-Text Label 6000 3650 0    60   ~ 0
+Text Label 6000 3650 0    60   ~ 6
 MCU_A0
-Text Label 5900 2550 0    60   ~ 0
+Text Label 5900 2550 0    60   ~ 6
 MCU_D7
-Text Label 5900 2450 0    60   ~ 0
+Text Label 5900 2450 0    60   ~ 6
 MCU_D6
-Text Label 5900 2350 0    60   ~ 0
+Text Label 5900 2350 0    60   ~ 6
 MCU_D5
-Text Label 5900 2250 0    60   ~ 0
+Text Label 5900 2250 0    60   ~ 6
 MCU_D4
-Text Label 5900 2150 0    60   ~ 0
+Text Label 5900 2150 0    60   ~ 6
 MCU_D3
-Text Label 5900 2050 0    60   ~ 0
+Text Label 5900 2050 0    60   ~ 6
 MCU_D2
-Text Label 5900 1950 0    60   ~ 0
+Text Label 5900 1950 0    60   ~ 6
 MCU_D1
-Text Label 5900 1850 0    60   ~ 0
+Text Label 5900 1850 0    60   ~ 6
 MCU_D0
-Text Label 6000 4550 0    60   ~ 0
+Text Label 6000 4550 0    60   ~ 6
 VUSB-
-Text Label 6000 4650 0    60   ~ 0
+Text Label 6000 4650 0    60   ~ 6
 VUSB-2
-Text Label 6000 4750 0    60   ~ 0
+Text Label 6000 4750 0    60   ~ 6
 VUSB+
-Text Label 6000 4850 0    60   ~ 0
+Text Label 6000 4850 0    60   ~ 6
 MCU_R/#W
-Text Label 6000 4950 0    60   ~ 0
+Text Label 6000 4950 0    60   ~ 6
 #MCU_OE
-Text Label 6000 5050 0    60   ~ 0
+Text Label 6000 5050 0    60   ~ 6
 TARGET_RESET
-Text Label 6000 5150 0    60   ~ 0
+Text Label 6000 5150 0    60   ~ 6
 #MCU_CE
-Text Label 6000 5250 0    60   ~ 0
+Text Label 6000 5250 0    60   ~ 6
 LED
 Wire Wire Line
 	5900 3250 6600 3250
@@ -478,53 +478,53 @@ F 3 "" H 8400 2100 60  0001 C CNN
 	1    8400 2300
 	1    0    0    -1  
 $EndComp
-Text Label 10000 2300 0    60   ~ 0
+Text Label 10000 2300 0    60   ~ 6
 D0
-Text Label 10000 2400 0    60   ~ 0
+Text Label 10000 2400 0    60   ~ 6
 D1
-Text Label 10000 2500 0    60   ~ 0
+Text Label 10000 2500 0    60   ~ 6
 D2
-Text Label 10000 2600 0    60   ~ 0
+Text Label 10000 2600 0    60   ~ 6
 D3
-Text Label 10000 2700 0    60   ~ 0
+Text Label 10000 2700 0    60   ~ 6
 D4
-Text Label 10000 2800 0    60   ~ 0
+Text Label 10000 2800 0    60   ~ 6
 D5
-Text Label 10000 2900 0    60   ~ 0
+Text Label 10000 2900 0    60   ~ 6
 D6
-Text Label 10000 3000 0    60   ~ 0
+Text Label 10000 3000 0    60   ~ 6
 D7
-Text Label 10000 3100 0    60   ~ 0
+Text Label 10000 3100 0    60   ~ 6
 A0
-Text Label 10000 3200 0    60   ~ 0
+Text Label 10000 3200 0    60   ~ 6
 A1
-Text Label 10000 3300 0    60   ~ 0
+Text Label 10000 3300 0    60   ~ 6
 A2
-Text Label 10000 3400 0    60   ~ 0
+Text Label 10000 3400 0    60   ~ 6
 A3
-Text Label 10000 3500 0    60   ~ 0
+Text Label 10000 3500 0    60   ~ 6
 A4
-Text Label 10000 3600 0    60   ~ 0
+Text Label 10000 3600 0    60   ~ 6
 A5
-Text Label 10000 3700 0    60   ~ 0
+Text Label 10000 3700 0    60   ~ 6
 A6
-Text Label 10000 3800 0    60   ~ 0
+Text Label 10000 3800 0    60   ~ 6
 A7
-Text Label 10000 3900 0    60   ~ 0
+Text Label 10000 3900 0    60   ~ 6
 A8
-Text Label 10000 4000 0    60   ~ 0
+Text Label 10000 4000 0    60   ~ 6
 A9
-Text Label 10000 4100 0    60   ~ 0
+Text Label 10000 4100 0    60   ~ 6
 A10
-Text Label 10000 4200 0    60   ~ 0
+Text Label 10000 4200 0    60   ~ 6
 A11
-Text Label 10000 4300 0    60   ~ 0
+Text Label 10000 4300 0    60   ~ 6
 A12
-Text Label 10000 4400 0    60   ~ 0
+Text Label 10000 4400 0    60   ~ 6
 A13
-Text Label 10000 4550 0    60   ~ 0
+Text Label 10000 4550 0    60   ~ 6
 #PSEN
-Text Label 10000 4850 0    60   ~ 0
+Text Label 10000 4850 0    60   ~ 6
 #CE
 Wire Wire Line
 	9950 4650 10000 4650
@@ -671,55 +671,55 @@ F 3 "" H 10500 4650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10000 4650 10500 4650
-Text Label 7950 2300 0    60   ~ 0
+Text Label 7950 2300 0    60   ~ 6
 MCU_D0
-Text Label 7950 2400 0    60   ~ 0
+Text Label 7950 2400 0    60   ~ 6
 MCU_D1
-Text Label 7950 2500 0    60   ~ 0
+Text Label 7950 2500 0    60   ~ 6
 MCU_D2
-Text Label 7950 2600 0    60   ~ 0
+Text Label 7950 2600 0    60   ~ 6
 MCU_D3
-Text Label 7950 2700 0    60   ~ 0
+Text Label 7950 2700 0    60   ~ 6
 MCU_D4
-Text Label 7950 2800 0    60   ~ 0
+Text Label 7950 2800 0    60   ~ 6
 MCU_D5
-Text Label 7950 2900 0    60   ~ 0
+Text Label 7950 2900 0    60   ~ 6
 MCU_D6
-Text Label 7950 3000 0    60   ~ 0
+Text Label 7950 3000 0    60   ~ 6
 MCU_D7
-Text Label 7950 3100 0    60   ~ 0
+Text Label 7950 3100 0    60   ~ 6
 MCU_A0
-Text Label 7950 3200 0    60   ~ 0
+Text Label 7950 3200 0    60   ~ 6
 MCU_A1
-Text Label 7950 3300 0    60   ~ 0
+Text Label 7950 3300 0    60   ~ 6
 MCU_A2
-Text Label 7950 3400 0    60   ~ 0
+Text Label 7950 3400 0    60   ~ 6
 MCU_A3
-Text Label 7950 3500 0    60   ~ 0
+Text Label 7950 3500 0    60   ~ 6
 MCU_A4
-Text Label 7950 3600 0    60   ~ 0
+Text Label 7950 3600 0    60   ~ 6
 MCU_A5
-Text Label 7950 3700 0    60   ~ 0
+Text Label 7950 3700 0    60   ~ 6
 MCU_A6
-Text Label 7950 3800 0    60   ~ 0
+Text Label 7950 3800 0    60   ~ 6
 MCU_A7
-Text Label 7950 3900 0    60   ~ 0
+Text Label 7950 3900 0    60   ~ 6
 MCU_A8
-Text Label 7950 4000 0    60   ~ 0
+Text Label 7950 4000 0    60   ~ 6
 MCU_A9
-Text Label 7950 4100 0    60   ~ 0
+Text Label 7950 4100 0    60   ~ 6
 MCU_A10
-Text Label 7950 4200 0    60   ~ 0
+Text Label 7950 4200 0    60   ~ 6
 MCU_A11
-Text Label 7950 4300 0    60   ~ 0
+Text Label 7950 4300 0    60   ~ 6
 MCU_A12
-Text Label 7700 4400 0    60   ~ 0
+Text Label 7700 4400 0    60   ~ 6
 MCU_A13_MOSI
-Text Label 7950 4550 0    60   ~ 0
+Text Label 7950 4550 0    60   ~ 6
 #MCU_CE
-Text Label 7900 4750 0    60   ~ 0
+Text Label 7900 4750 0    60   ~ 6
 MCU_R/#W
-Text Label 7950 4850 0    60   ~ 0
+Text Label 7950 4850 0    60   ~ 6
 #MCU_OE
 Wire Wire Line
 	8400 2300 7850 2300
@@ -1146,27 +1146,27 @@ Wire Wire Line
 	2950 6700 3600 6700
 Wire Wire Line
 	2950 6900 3600 6900
-Text Label 3150 6700 0    60   ~ 0
+Text Label 3150 6700 0    60   ~ 6
 VUSB-
-Text Label 3150 6900 0    60   ~ 0
+Text Label 3150 6900 0    60   ~ 6
 VUSB-2
-Text Label 3150 6500 0    60   ~ 0
+Text Label 3150 6500 0    60   ~ 6
 VUSB+
-Text Label 4250 1850 0    50   ~ 0
+Text Label 4250 1850 0    50   ~ 6
 MCU_RESET
-Text Label 2500 1550 0    50   ~ 0
+Text Label 2500 1550 0    50   ~ 6
 MCU_RESET
 Wire Wire Line
 	2450 1550 3100 1550
-Text Label 2500 1450 0    60   ~ 0
+Text Label 2500 1450 0    60   ~ 6
 MCU_SCK
 Wire Wire Line
 	2450 1450 3100 1450
-Text Label 2500 1350 0    60   ~ 0
+Text Label 2500 1350 0    60   ~ 6
 MCU_A13_MOSI
 Wire Wire Line
 	2450 1350 3100 1350
-Text Label 2500 1250 0    60   ~ 0
+Text Label 2500 1250 0    60   ~ 6
 MCU_MISO
 Wire Wire Line
 	2450 1250 3100 1250
@@ -1275,19 +1275,19 @@ F 3 "" H 4450 4950 50  0001 C CNN
 	1    4450 4950
 	1    0    0    -1  
 $EndComp
-Text Label 4400 2050 0    50   ~ 0
+Text Label 4400 2050 0    50   ~ 6
 XTAL1
-Text Label 4400 2250 0    50   ~ 0
+Text Label 4400 2250 0    50   ~ 6
 XTAL2
-Text Label 1500 6550 0    50   ~ 0
+Text Label 1500 6550 0    50   ~ 6
 D+
-Text Label 1500 6650 0    50   ~ 0
+Text Label 1500 6650 0    50   ~ 6
 D-
-Text Label 1400 6350 0    50   ~ 0
+Text Label 1400 6350 0    50   ~ 6
 VBUS
 Wire Wire Line
 	1250 5350 1750 5350
-Text Label 1350 5350 0    50   ~ 0
+Text Label 1350 5350 0    50   ~ 6
 5V_CART
 Wire Wire Line
 	2000 6350 2100 6350
@@ -1311,6 +1311,4 @@ Wire Wire Line
 	4100 1850 4700 1850
 Wire Wire Line
 	5900 5050 6750 5050
-Text Label 10600 7650 0    50   ~ 0
-1.0beta
 $EndSCHEMATC
